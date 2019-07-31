@@ -1,7 +1,18 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CRootLauncher.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Authority" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://adfs-srv.croot.com/adfs</Value>
+    </Setting>
+    <Setting Name="ResourceUri" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://adfs-srv.croot.com/WebApi/</Value>
+    </Setting>
+    <Setting Name="ClientId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">5071e284-f5b5-45e6-995f-53ee33cd3e27</Value>
+    </Setting>
+    <Setting Name="RedirectUri" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://adfs-srv.croot.com/</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>
